@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Services|Contact</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="backend.js"></script>
+<style>
+    .headers{
+    color: black;
+    margin:0px;
+    padding:0px;
+    height:400px;
+    width: 100%;
+    background-image:url('Imgs/bg3.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+   </style>
+
+
+   <body>
+    <!-- _______ FOR MENU BAR _______ -->
+    <section  class=" headers">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="Imgs/logo.png" alt="">
+            <!-- <div>Hotel Stay</div> -->
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="Index.html" > Home</a></li>
+                <li><a href="About.html" > About us</a></li>
+                <li><a href="services.html"> Services</a></li>
+                <li><a href="contact.html" class="Active"> Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn" onclick="CallUs()">Call Us Now</button>
+            <button class="btn" onclick="EmailUs()">Email us</button>
+        </div>
+    </section>
+
+    <!-- _______FOR HOTEL MIDDLE PART______ -->
+    <section>
+        <div class="midtext">
+        <strong> CONTACT US </strong> <br>
+        <a href="" class=" mid-btn"> Read  More</a>
+    </div>
+    </section>
+
+    <!-- ____FOR CONTACT US____ -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120073.07457559!2d75.23516001307192!3d19.87024401497888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9815a369bc63%3A0x712d538b29a2a73e!2sAurangabad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1636705818782!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+     
+<section class="contact">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                    <i class="fa fa-home"></i>
+                    <span><br>
+                        <h5>Akashwani chowk</h5>
+                        <p>Aurangabad, Maharastra</p>
+                    </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>91+ 9527674438</h5>
+                        <p>all days, 10am to 9pm</p>
+                    </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5> stayin@gmail.com </h5>
+                        <p>mail us your query</p>
+                    </span>
+                </div>
+            </div>
+
+   <div class="contact-col">
+   <form action="">
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your mail" required>
+        <input type="text" placeholder="Enter Your Subject" required>
+        <textarea rows="8" placeholder="Message" required></textarea> <br>
+        <button type="submit" class="btn" onclick="SendMessage()" > Send Message </button>
+    </form>
+    </div>    
+  </section>
+   <!-- _______ FOR FOOTER _______ -->
+   <footer class="footer">
+    <div class="footer-content">
+        <div>
+            <h2>ABOUT US</h2> 
+            <p>You Can Connect Us On</p>
+            <br>
+            <a href="#" class="fa fa-facebook"></a>  
+            <a href="#" class="fa fa-twitter"></a>   
+            <a href="#" class="fa fa-linkedin"></a>  
+            <a href="#" class="fa fa-instagram"></a>    
+        </div> <br>
+        <h4> @ All copyrights are Reserved By Mahima Kasliwal</h4>
+
+    </div>
+</footer>
+</body>
+</html>
